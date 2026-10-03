@@ -16,3 +16,6 @@ For each High-sensitivity asset, I went through the six STRIDE categories (Spoof
 
 ## Assets Covered
 AST-003 (Back Office Laptop), AST-006 (Backup External Hard Drive), AST-010 & AST-011 (POS Terminals), AST-012 (Inventory Database Server)
+
+## Using the Status Column
+All risks are currently marked "Open" since mitigations haven't been implemented yet. Going forward, this should be updated to "Mitigated" once a control is in place, or "Accepted" if the business decides a risk is tolerable as-is. Reviewing and updating these statuses should happen alongside the annual risk review.
