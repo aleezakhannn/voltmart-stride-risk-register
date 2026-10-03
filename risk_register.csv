@@ -1,0 +1,13 @@
+Risk ID,Asset ID,Threat,STRIDE Category,Likelihood (1-5),Impact (1-5),Risk Score,Owner ,Status
+R-001,AST-012,An attacker could alter inventory records in the database to cover up theft or fraud,Tampering,3,5,15,IT Admin,Open
+R-002,AST-010,Payment card data could be intercepted or skimmed at this checkout terminal,Information Disclosure,3,5,15,Store Manager,Open
+R-003,AST-011,Payment card data could be intercepted or skimmed at this checkout terminal,Information Disclosure,3,5,15,Store Manager,Open
+R-004,AST-003,"Ransomware could lock files on the back office laptop, halting finance and payroll work",Denial of Service,3,4,12,Store Manager,Open
+R-005,AST-012,An unauthorized user could gain elevated access to the database server,Elevation of Privilege,2,5,10,IT Admin,Open
+R-006,AST-006,"If the backup drive is lost or stolen, all backed-up data would be exposed",Information Disclosure,2,5,10,IT Admin,Open
+R-007,AST-010,An attacker could impersonate this terminal on the network to intercept transactions,Spoofing,2,4,8,IT Admin,Open
+R-008,AST-003,"Without an audit log, a staff member could deny making a change on the laptop",Repudiation,2,4,8,Store Manager,Open
+R-009,AST-012,"A flood of traffic could overwhelm the database server, taking it offline",Denial of Service,2,4,8,IT Admin,Open
+R-010,AST-006,"Backup data could be corrupted or tampered with, making restoration unreliable",Tampering,2,4,8,IT Admin,Open
+R-011,AST-011,An attacker could impersonate this terminal on the network to intercept transactions,Spoofing,2,4,8,IT Admin,Open
+R-012,AST-003,An unauthorized user could gain admin-level access to the laptop,Elevation of Privilege,2,4,8,Store Manager,Open
